@@ -1,0 +1,32 @@
+{
+  "name": "legendsamongus",
+  "version": "1.0.0",
+  "description": "Website para divulgação de um time de e-sports fictício",
+  "main": "index.js",
+  "scripts": {
+      "sass": "node-sass --watch Sources/CSS/master.scss Sources/CSS/master.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusamelio/legendsamongus.git"
+  },
+  "keywords": [
+    "e=sports",
+    "time",
+    "league",
+    "of",
+    "legends",
+    "games"
+  ],
+  "author": "Vinicius Amélio",
+  "bugs": {
+    "url": "https://github.com/viniciusamelio/legendsamongus/issues"
+  },
+  "homepage": "https://github.com/viniciusamelio/legendsamongus#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
