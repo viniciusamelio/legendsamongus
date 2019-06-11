@@ -12,15 +12,15 @@
     </head>
     <body style="background: #111019">
 
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark " style="font-family: 'Rubik'">
+        <nav class="navbar fixed-top navbar-expand-md navbar-expand-lg navbar-dark " style="font-family: 'Rubik'">
             <a class="navbar-brand" href="index.php">
                 <img src="Sources/Images/logo.svg" alt="Logo" height="180px">
             </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Dropdown" aria-controls="NavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="Dropdown">
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse" id="Dropdown" style="justify-content:flex-end;border-radius:2px;padding:5px;">
+            <ul class="navbar-nav" >
               <li class="nav-item">
                 <a class="nav-link" href="#">Home</a>
               </li>
