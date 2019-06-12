@@ -41,10 +41,10 @@ $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 $grafite :  #363636 !default;
-$azul: #378ddd;
+$blue01: #378ddd;
 $purple01: #f6edfc;
 $purple02: #8437b7;
-
+$orange: #e8a81e;
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -67,7 +67,7 @@ $colors: map-merge(
   $colors
 );
 
-$primary:       $grafite !default;
+$primary:       $orange !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -81,16 +81,27 @@ $theme-colors: () !default;
 $theme-colors: map-merge(
   (
     "primary":    $primary,
-    "secondary":  $secondary,
+    "secondary":  $purple,
     "success":    $success,
     "info":       $info,
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
-    "dark":       $dark
+    "dark":       $dark,
+    "blue" :      $blue01
   ),
   $theme-colors
 );
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 @import '../../node_modules/bootstrap/scss/_variables.scss';
+
+p{
+    font-weight:600;
+    font-size:1.2em;
+
+}
+
+.texto-laranja{
+        color: $orange;
+}
