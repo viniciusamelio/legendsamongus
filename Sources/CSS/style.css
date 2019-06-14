@@ -10,3 +10,16 @@
 .radiuss{
     border-radius:100%;
 }
+.photo{
+    width:400px;
+    height:200px;
+}
+.p-10{
+    padding:10px;
+}
+.desc{
+    text-align: justify;;
+}
+.img-card{
+    margin-left: 10px;
+}
