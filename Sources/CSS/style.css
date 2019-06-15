@@ -23,3 +23,7 @@
 .img-card{
     margin-left: 10px;
 }
+
+.lol, .hs{
+    display:none;
+}

@@ -45,6 +45,7 @@ $blue01: #378ddd;
 $purple01: #f6edfc;
 $purple02: #8437b7;
 $orange: #e8a81e;
+$green01 : #0cb25a;
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -87,8 +88,9 @@ $theme-colors: map-merge(
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
-    "dark":       $dark,
-    "blue" :      $blue01
+    "dark":       $grafite,
+    "blue" :      $blue01,
+    "green" :     $green01
   ),
   $theme-colors
 );
