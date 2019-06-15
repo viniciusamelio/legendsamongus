@@ -31,9 +31,6 @@
                 <a class="nav-link" href="equipe.php">Equipe</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Staff</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="#">Wallpapers</a>
               </li>
               <li class="nav-item">
