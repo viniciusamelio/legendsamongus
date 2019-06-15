@@ -26,4 +26,10 @@
 
 .lol, .hs{
     display:none;
+    border: 2px solid #363636;
+
+}
+
+.btn-null:hover{
+    background:rgba(0,0,0,.2)
 }

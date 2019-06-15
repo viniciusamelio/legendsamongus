@@ -25,10 +25,10 @@
           <div class="collapse navbar-collapse" id="Dropdown" style="justify-content:flex-end;border-radius:2px;padding:5px;">
             <ul class="navbar-nav" >
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="index.php">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Equipe</a>
+                <a class="nav-link" href="equipe.php">Equipe</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Staff</a>
