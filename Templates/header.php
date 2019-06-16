@@ -31,7 +31,7 @@
                 <a class="nav-link" href="equipe.php">Equipe</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Wallpapers</a>
+                <a class="nav-link" href="wallpapers.php">Wallpapers</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contato</a>
