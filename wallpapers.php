@@ -1,5 +1,5 @@
 <?php include_once('Templates/header.php'); ?>
-<section style="width:100%;height:100vh;background:url('Sources/Images/Index-Banner.png') no-repeat center center;background-size:cover;background-color:none;padding-top:50px">
+<section style="width:100%;height:100vh;background:url('Sources/Images/Wallpapers-Banner.png') no-repeat center center;background-size:cover;background-color:none;padding-top:50px">
     <div class="container">
         <div class="row" style="height:150px">
 
