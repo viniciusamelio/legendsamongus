@@ -28,38 +28,73 @@ include_once('Templates/header.php');
 
 
 </section>
+<div class="bg-secondary text-center" style="height: 80px;padding:15px;">
+
+</div>
+<div style="background: #c1c1c1;padding:5px;">
 
 
-    <section class="container" style="margin-top: 30px">
+    <section class="container" style="margin-top: 10px;background:">
 
-            <div class="col-12 text-center text-secondary">
-                <h1 class="sub-title">Acompanhe-nos</h1>
+        <div class="row">
+
+
+            <h3 class="text-center"><img src="https://img.icons8.com/wired/30/000000/hearthstone.png"> Hearthstone</h3>
+            <div class="card col-12 text-dark bg-green" style="padding:5px">
+                <div class="row">
+                    <div class="col-4 text-right">
+                        <img src="Sources/Images/logo.svg" height="90px" alt="">
+                        <b style="font-size:30px">2</b>
+                    </div>
+                    <div class="col-4 text-center">
+                        <strong>LAU X LAU</strong>
+                    </div>
+                    <div class="col-4 text-left">
+                        <b style="font-size:30px">0</b>
+                        <img src="Sources/Images/logo.svg" height="90px" alt="">
+                    </div>
+                </div>
             </div>
-            <br>
-            <article class="text-left">
-                <div class="row">
-                    <div class="col-lg-8 col-sm-12 bg-primary" style="padding:10px;min-height:250px" >
-                        <h2>Título da Notícia</h2>
-                        <p>LOREM IPSUM DOLOR SET AMEM DO TRABSON DO DALE DEO DELE</p>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-12 bg-secondary" style="padding:10px;min-height:250px" >
-                        <h2>Título da Notícia</h2>
-                        <p>LOREM IPSUM DOLOR SET AMEM DO TRABSON DO DALE DEO DELE</p>
-                    </div>
-                </div>
+        </div>
+        <br>
+        <div class="row">
+            <h3 class="text-center"><img src="https://img.icons8.com/wired/30/000000/hearthstone.png"> Hearthstone</h3>
+            <div class="card col-12 bg-danger" style="padding:5px">
 
                 <div class="row">
-                    <div class="col-lg-12 col-sm-12 bg-blue" style="padding:10px;min-height:250px" >
-                        <h2>Título da Notícia</h2>
-                        <p>LOREM IPSUM DOLOR SET AMEM DO TRABSON DO DALE DEO DELE</p>
+                    <div class="col-4 text-right">
+                        <img src="Sources/Images/300x300.png" height="90px" alt="">
+
+                    </div>
+                    <div class="col-4 text-center">
+                        Fnatic X LAU
+                    </div>
+                    <div class="col-4 text-left">
+                        <img src="Sources/Images/300x300.png" height="90px" alt="">
                     </div>
                 </div>
-            </article>
-
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <h3 class="text-center"><img src="https://img.icons8.com/ios/30/000000/league-of-legends.png"> League of Legends</h3>
+            <div class="card col-12 bg-danger" style="padding:5px">
+                <div class="row">
+                    <div class="col-4 text-right">
+                        <img src="Sources/Images/300x300.png" height="90px" alt="">
+                    </div>
+                    <div class="col-4 text-center">
+                        Fnatic X LAU
+                    </div>
+                    <div class="col-4 text-left">
+                        <img src="Sources/Images/300x300.png" height="90px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
-
+</div>
 
 
 

@@ -33,3 +33,7 @@
 .btn-null:hover{
     background:rgba(0,0,0,.2)
 }
+
+.p-0{
+    padding-left:0;
+}
