@@ -23,7 +23,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="Dropdown" style="justify-content:flex-end;border-radius:2px;padding:5px;">
-            <ul class="navbar-nav" >
+            <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="index.php">Home</a>
               </li>
@@ -34,7 +34,7 @@
                 <a class="nav-link" href="wallpapers.php">Wallpapers</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link" href="index.php#Contato">Contato</a>
               </li>
 
             </ul>

@@ -37,3 +37,16 @@
 .p-0{
     padding-left:0;
 }
+
+.input{
+    width:100%;
+    border-radius: 2px;
+    padding: 30px;
+    border: none;
+    font-size: 1.1em;
+    color: #363636;
+    font-family: 'Patua One' ;
+}
+.input:focus{
+    outline-color: #7e53cc;
+}

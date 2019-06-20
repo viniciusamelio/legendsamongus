@@ -35,6 +35,11 @@ include_once('Templates/header.php');
 
 
     <section class="container" style="margin-top: 10px;background:">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center">Últimos jogos</h2>
+            </div>
+        </div>
 
         <div class="row">
 
@@ -63,14 +68,15 @@ include_once('Templates/header.php');
 
                 <div class="row">
                     <div class="col-4 text-right">
-                        <img src="Sources/Images/300x300.png" height="90px" alt="">
-
+                        <img src="Sources/Images/logo.svg" height="90px" alt="">
+                        <b style="font-size:30px">1</b>
                     </div>
                     <div class="col-4 text-center">
-                        Fnatic X LAU
+                        <strong>LAU X LAU</strong>
                     </div>
                     <div class="col-4 text-left">
-                        <img src="Sources/Images/300x300.png" height="90px" alt="">
+                        <b style="font-size:30px">2</b>
+                        <img src="Sources/Images/logo.svg" height="90px" alt="">
                     </div>
                 </div>
             </div>
@@ -81,20 +87,63 @@ include_once('Templates/header.php');
             <div class="card col-12 bg-danger" style="padding:5px">
                 <div class="row">
                     <div class="col-4 text-right">
-                        <img src="Sources/Images/300x300.png" height="90px" alt="">
+                        <img src="Sources/Images/logo.svg" height="90px" alt="">
+                        <b style="font-size:30px">2</b>
                     </div>
                     <div class="col-4 text-center">
-                        Fnatic X LAU
+                        <strong>LAU X LAU</strong>
                     </div>
                     <div class="col-4 text-left">
-                        <img src="Sources/Images/300x300.png" height="90px" alt="">
+                        <b style="font-size:30px">3</b>
+                        <img src="Sources/Images/logo.svg" height="90px" alt="">
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row" style="height:50px">
+
+        </div>
 
     </section>
+
+
 </div>
+<div style="height:80px" class="col-12 bg-secondary">
+
+</div>
+
+<section style="height:" class="container" id="Contato">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="title text-secondary text-right">Fale conosco</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class=" col-lg-6">
+            <div class="">
+                <form class="form" method="post">
+                    <div class="form-group">
+                        <input class="input" placeholder="Nome" type="text" name="nome">
+                    </div>
+                    <div class="form-group">
+                        <input class="input" placeholder="E-mail" type="email" name="nome">
+                    </div>
+            </div>
+
+    </div>
+    <div class="col-lg-5 offset-lg-1">
+        <div class="form-group">
+            <textarea class="input" name="Mensagem" placeholder="Mensagem" style="resize:none;width:100%;height:187px"></textarea>
+        </div>
+
+    </div>
+    <div class="col-12">
+            <div class="form-group">
+                <button class="btn btn-block btn-lg btn-success text-dark" style="font-family: 'Patua One';height:80px;border-radius:2px" type="submit" name="enviar">Enviar  </button>
+            </div>
+            </form>
+    </div>
+</section>
 
 
 
