@@ -112,7 +112,7 @@ include_once('Templates/header.php');
 
 </div>
 
-<section style="height:" class="container" id="Contato">
+<section  class="container" id="Contato">
     <div class="row">
         <div class="col-12">
             <h2 class="title text-secondary text-right">Fale conosco</h2>
